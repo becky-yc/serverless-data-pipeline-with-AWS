@@ -1,6 +1,5 @@
-This repository aims to build a Serverless Data Engineering Pipeline. It consists of setting up AWS Lambda functions (1. Producer, 2. Consumer) using Cloud9. 
-
 ## Build a Serverless Data Engineering Pipeline Walkthrough
+This repository aims to build a Serverless Data Engineering Pipeline. It consists of setting up AWS Lambda functions (1. Producer, 2. Consumer) using Cloud9. 
 
 - the CloudWatchEvents will call the producer function every minute. The producer function is going to extract the data from the DynamoDB. This project will extract the names of companies.
 - The producer will send the data to AWS SQS.
